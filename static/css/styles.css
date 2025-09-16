@@ -1,0 +1,13 @@
+:root{
+--bg:#f8fafc; --card:#ffffff; --accent:#0ea5a4;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Arial;margin:0;background:var(--bg);color:#0f172a}
+.container{max-width:900px;margin:40px auto;padding:16px}
+h1{text-align:center}
+.card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.06);margin:18px 0}
+input[type=text], input[type=file]{display:block;width:100%;padding:10px;margin:8px 0;border-radius:8px;border:1px solid #e6eef3}
+button{background:var(--accent);color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer}
+.msg{margin-top:8px;color:#0f172a}
+#identify-results{margin-top:12px}
+.result-item{padding:8px;border-radius:6px;border:1px dashed #e6eef3;margin:8px 0}
